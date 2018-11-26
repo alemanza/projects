@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'cssl-icons';
+  src:
+    url('./assets/fonts/cssl-icons.ttf?c670mu') format('truetype'),
+    url('./assets/fonts/cssl-icons.woff?c670mu') format('woff'),
+    url('./assets/fonts/cssl-icons.svg?c670mu#cssl-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cssl-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e902";
+}
+.icon-mid-star:before {
+  content: "\e900";
+}
+.icon-star:before {
+  content: "\e901";
+}
+.icon-play:before {
+  content: "\ea1c";
+}
